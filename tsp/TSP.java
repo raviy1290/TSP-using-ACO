@@ -4,14 +4,15 @@ import java.util.Random;
 
 public class TSP {
     
-    static int alpha  = 2;
-    static int beta   = 3;
-    static double rho = 0.01;
-    static double Q   = 2.0;
+    static int alpha  = 2;       // constant
+    static int beta   = 3;       // constant
+    static double rho = 0.01;    // constant
+    static double Q   = 2.0;     // constant
     
-    static int numCities = 10;
-    static int numAnts = 10;
-    static int maxTime = 25;
+    static int numCities = 10;   // configure # cities HERE
+    static int numAnts = 10;     // configure # ants HERE
+    static int maxTime = 25;     // configure max time iteration HERE
+    
     static int[][] dists = new int[numCities][numCities];
     
     public static void main(String... args){
